@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Updated to a more modern ES version
+    "module": "NodeNext", // Recommended for modern Node.js ESM
+    "moduleResolution": "NodeNext", // [cite: 79]
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true, // [cite: 79]
+    "outDir": "./dist", // [cite: 79]
+    "rootDir": "./src",
+    "strict": true, // [cite: 79]
+    "esModuleInterop": true, // [cite: 79]
+    "forceConsistentCasingInFileNames": true, // [cite: 79]
+    "skipLibCheck": true,
+    "resolveJsonModule": true // [cite: 79]
+  },
+  "include": ["src/**/*"], // [cite: 79]
+  "exclude": ["node_modules", "dist"] // [cite: 79]
+}
